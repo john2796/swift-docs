@@ -81,14 +81,86 @@ let message = "Hello, my name is \(name) and I'm \(age) years old."
 print(message)
 ```
 
-## Summary
+## How to store ordered data in arrays
 
-- Swift lets us create constants using let, and variables using var.
-- If you don’t intend to change a value, make sure you use let so that Swift can help you avoid mistakes.
-Swift’s strings contain text, from short strings up to whole novels. They work great with emoji and any world language, and have helpful functionality such as count and uppercased().
-- You create strings by using double quotes at the start and end, but if you want your string to go over several lines you need to use three double quotes at the start and end.
-- Swift calls its whole numbers integers, and they can be positive or negative. They also have helpful functionality, such as isMultiple(of:).
-- In Swift decimal numbers are called Double, short for double-length floating-point number. That means they can hold very large numbers if needed, but they also aren’t 100% accurate – you shouldn’t use them when 100% precision is required, such as when dealing with money.
-- There are lots of built-in arithmetic operators, such as +, -, *, and /, along with the special compound assignment operators such as += that modify variables directly.
-- You can represent a simple true or false state using a Boolean, which can be flipped using the ! operator or by calling toggle().
-- String interpolation lets us place constants and variables into our strings in a streamlined, efficient way.
+```swift
+var beatles = ["John", "Paul", "George", "Ringo"]
+let numbers = [4, 8, 15, 16, 23, 42]
+var temperatures = [25.3, 28.2, 26.4]
+
+// read values
+print(beatles[0])
+print(numbers[1])
+print(temperatures[2])
+
+beatles.append("Allen")
+beatles.append("Adrian")
+
+let firstBeatle = beatles[0]
+let firstNumber = numbers[0]
+let notAllowed = firstBeatle + firstNumber
+```
+You can see this more clearly when you want to start with an empty array and add items to it one by one. This is done with very precise syntax:
+
+```swift
+var scores = Array<Int>()
+scores.append(100)
+scores.append(80)
+scores.append(85)
+print(scores.count)
+print(scores[1])
+scores.remove(at:1)
+scores.removeAll()
+
+
+let bondMovies = ["Casino Royale", "Spectre", "No Time To Die"]
+print(bondMovies.contains("Frozen"))
+
+let cities = ["London", "Tokyo", "Rome"]
+print(cities.sorted())
+print(cities.reversed())
+```
+
+## How to store and find data in dictionaries
+Arrays are a great choice when items should be stored in the order you add them, or when you might have duplicate items in there, but very often accessing data by its position in the array can be annoying or even dangerous.
+
+For example, here’s an array containing an employee’s details:
+now that you remove index 1 the value will not be predictable because the index shifted.
+```swift
+var employee = ["Taylor Swift", "Singer", "Nashville"]
+print("Name: \(employee[0])")
+employee.remove(at: 1)
+print("Job title: \(employee[1])")
+print("Location: \(employee[2])")
+```
+
+## Dictionaries
+Swift has a solution for both these problems, called dictionaries. **Dictionaries** don’t store items according to their position like arrays do, but instead let us decide where items should be stored.
+
+```swift
+let employee2 = [
+    "name": "Taylor Swift",
+    "job": "Singer"
+    "location": "Nashville"
+]
+print(employee2["name"])
+print(employee2["job"])
+print(employee2["location"])
+```
+Adding default value
+```swift
+let olympics = [
+    2012: "London",
+    2016: "Rio de Janeiro",
+    2021: "Tokyo"
+]
+print(olympics[2012, default: "Unknown"])
+```
+
+You can also create an empty dictionary using whatever explicit types you want to store, then set keys one by one:
+```swift
+var heights = [String: Int()]
+heights["Yao Ming"] = 229
+heights["Shaquille O'Neal"] = 216
+heights["Lebron James"] = 206
+```

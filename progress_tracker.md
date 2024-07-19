@@ -8,7 +8,7 @@ The first 14 days provide a gentle warm up for your SwiftUI learning as we cover
 Regardless of whether or not you go over the optional extra reading, you’ll find lots of short short tests – I recommend you take them to really solidify what you’ve learned.
 
 [✅ iOS 17] Day 1 – Variables, constants, strings, and numbers
-[❌ iOS 17] Day 2 – Booleans, string interpolation, and checkpoint 1
+[✅ iOS 17] Day 2 – Booleans, string interpolation, and checkpoint 1
 [❌ iOS 17] Day 3 – Arrays, dictionaries, sets, and enums
 [❌ iOS 17] Day 4 – Type annotations and checkpoint 2
 [❌ iOS 17] Day 5 – If, switch, and the ternary operator
