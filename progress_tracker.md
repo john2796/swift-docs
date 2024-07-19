@@ -9,9 +9,9 @@ Regardless of whether or not you go over the optional extra reading, you’ll fi
 
 [✅ iOS 17] Day 1 – Variables, constants, strings, and numbers
 [✅ iOS 17] Day 2 – Booleans, string interpolation, and checkpoint 1
-[❌ iOS 17] Day 3 – Arrays, dictionaries, sets, and enums
-[❌ iOS 17] Day 4 – Type annotations and checkpoint 2
-[❌ iOS 17] Day 5 – If, switch, and the ternary operator
+[✅ iOS 17] Day 3 – Arrays, dictionaries, sets, and enums
+[✅ iOS 17] Day 4 – Type annotations and checkpoint 2
+[✅ iOS 17] Day 5 – If, switch, and the ternary operator
 [❌ iOS 17] Day 6 – Loops, summary, and checkpoint 3
 [❌ iOS 17] Day 7 – Functions, parameters, and return values
 [❌ iOS 17] Day 8 – Default values, throwing functions, and checkpoint 4
