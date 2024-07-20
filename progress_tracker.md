@@ -12,29 +12,29 @@ Regardless of whether or not you go over the optional extra reading, you’ll fi
 [✅ iOS 17] Day 3 – Arrays, dictionaries, sets, and enums
 [✅ iOS 17] Day 4 – Type annotations and checkpoint 2
 [✅ iOS 17] Day 5 – If, switch, and the ternary operator
-[❌ iOS 17] Day 6 – Loops, summary, and checkpoint 3
-[❌ iOS 17] Day 7 – Functions, parameters, and return values
-[❌ iOS 17] Day 8 – Default values, throwing functions, and checkpoint 4
-[❌ iOS 17] Day 9 – Closures, passing functions into functions, and checkpoint 5
-[❌ iOS 17] Day 10 – Structs, computed properties, and property observers
-[❌ iOS 17] Day 11 – Access control, static properties and methods, and checkpoint 6
-[❌ iOS 17] Day 12 – Classes, inheritance, and checkpoint 7
-[❌ iOS 17] Day 13 – Protocols, extensions, and checkpoint 8
-[❌ iOS 17] Day 14 – Optionals, nil coalescing, and checkpoint 9
+[✅ iOS 17] Day 6 – Loops, summary, and checkpoint 3
+[✅ iOS 17] Day 7 – Functions, parameters, and return values
+[✅ iOS 17] Day 8 – Default values, throwing functions, and checkpoint 4
+[✅ iOS 17] Day 9 – Closures, passing functions into functions, and checkpoint 5
+[✅ iOS 17] Day 10 – Structs, computed properties, and property observers
+[✅ iOS 17] Day 11 – Access control, static properties and methods, and checkpoint 6
+[✅ iOS 17] Day 12 – Classes, inheritance, and checkpoint 7
+[✅ iOS 17] Day 13 – Protocols, extensions, and checkpoint 8
+[✅ iOS 17] Day 14 – Optionals, nil coalescing, and checkpoint 9
  
 
 ## Day 15: Consolidation I
 You just learned a lot about Swift in only 14 days, so before we continue it's important you reflect on what you've learned.
 
-[❌ iOS 17] Day 15 – Swift review
+[✅ iOS 17] Day 15 – Swift review
  
 
 ## Days 16-24: Starting SwiftUI
 Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
 
-[❌ iOS 17] Day 16 – Project 1, part one
-[❌ iOS 17] Day 17 – Project 1, part two
-[❌ iOS 17] Day 18 – Project 1, part three
+[✅ iOS 17] Day 16 – Project 1, part one
+[✅ iOS 17] Day 17 – Project 1, part two
+[✅ iOS 17] Day 18 – Project 1, part three
 [❌ iOS 17] Day 19 – Challenge day
 [❌ iOS 17] Day 20 – Project 2, part one
 [❌ iOS 17] Day 21 – Project 2, part two
